@@ -5,6 +5,7 @@ body {
 	padding: 0;
 	background: rgb(182,255,255);
 	background: linear-gradient(0deg, rgba(182,255,255,1) 0%, rgba(0,212,255,1) 100%);
+	
 }
 
 .robot {
@@ -17,23 +18,39 @@ body {
 	width: 200px;
 	height: 150px;
 	border-radius: 25px 25px 0 0;
+	position: relative;
+	left: 100px;
+
 }
 
 .robot .eye {
 	width: 25px;
 	height: 25px;
+	
+
 }
 
 .robot .left-eye {
+	position: relative;
+	bottom: -50px;
+	left: 30px;
 }
 
 .robot .right-eye {
+
+	position: relative;
+	right: -145px;
+	bottom: -25px;
+
 }
 
 .robot .mouth {
 	width: 100px;
 	height: 25px;
 	border-radius: 0 0 25px 25px;
+	position: relative;
+	bottom: -50px;
+	left: 50px;
 }
 
 .robot .body {
@@ -54,33 +71,70 @@ body {
 	font-size: 40px;
 	font-weight: 900;
 	color: aliceblue;
+	position: relative;
+	bottom: -60px;
 }
 
 .robot .arm {
 	width: 50px;
-	height: 120px;
+	height: 132px;
+	position: relative;
+	bottom: 339px;
+	
+	
+	
+	
+	
 }
 
 .robot .left-arm {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: -49px;
+	
+	
 }
 
 .robot .right-arm {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	right: -300px;
+	bottom: -30px;
+	
+	
+
+
 }
 
 .robot .hand {
 	width: 50px;
-	height: 50px;
+	height: 110px;
+	position: absolute;
+	top: -116px;
+	right: -50px;
+
+	
+	
+	
 }
 
 .robot .leg {
 	width: 50px;
 	height: 100px;
+	
+	
 }
 
 .robot .left-leg {
+	position: absolute;
+	right: 100px;
 }
 
 .robot .right-leg {
+	position: absolute;
+	left: 100px;
 }
 
 .robot .foot {
@@ -89,9 +143,17 @@ body {
 }
 
 .robot .left-foot {
+	position: absolute;
+	left: -50px;
+	bottom: -15px;
+	
 }
 
 .robot .right-foot {
+	position: absolute;
+	right: 0px;
+	bottom: -15px;
+	
 }
 
 .lightest-colour {
